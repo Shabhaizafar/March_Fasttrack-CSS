@@ -1,0 +1,446 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: visible;
+}
+header{
+    width: 100%;
+    padding: 25px;
+    position: absolute;   
+}
+header ul{
+list-style-type: none;
+display: flex;
+justify-content: center;
+gap: 10px;
+}
+header ul li{
+    background-color: white ;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li a{
+    font-size: 12px;
+    color: dimgray;
+}
+div.bg-slider{
+    /* view width */
+    width: 100vw;
+    /* view height */
+    height: 100vh;
+    background-color: gray;
+    background-image: url("/assets/slide2.jpg");
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+div.bg-slider div{
+    width: 430px;
+    position: absolute;
+    bottom: 100px;
+    left:calc(50% - 215px);
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+div.bg-slider div h1{
+    border-bottom: 1px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+div.bg-slider div button{
+    background-color:#ec523f;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+/*  */
+div.container{
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    top: 100px;
+}
+nav{
+    background-color: white;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+nav div.menu ul{
+    display: flex;
+    list-style-type: none;
+    gap: 5px;
+}
+nav div.menu ul li{
+    padding: 0px 20px;
+}
+nav div.menu ul li a{
+    padding: 35px 0px;
+    font-size: small;
+}
+nav div.menu ul li a:hover{
+    border-top: 3px solid #ec523f;
+    color: #ec523f;
+}
+nav div.menu ul li:first-child a{
+    border-top: 3px solid #ec523f;
+    color: #ec523f;
+}
+nav a{
+    text-decoration: none;
+    color: #444444;
+    font-family: sans-serif;
+}
+nav  div.logo-text{
+    width: 350px;
+}
+nav h1 a{
+    color: #ec523f;
+    font-size: 32px;
+}
+nav div.logo{
+    width: 100px;
+    height: 100px;
+}
+nav div.logo img{
+    width: 100%;
+    height: 100%;
+}
+/* -------- */
+div.services{
+    padding: 150px 8vw;
+}
+div.services div.service-text{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 50px;
+}
+div.services div.service-text h3{
+    margin: auto;
+    width: fit-content;
+    font-size: 26px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+div.services div.service-block{
+
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+div.services div.service-block article{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 250px;
+    height: 300px;
+}
+div.services div.service-block article i{
+    font-size: 42px;
+    color: white;
+}
+div.services div.service-block article:nth-child(1){
+   background-color: #1abc9c;
+   position: relative;
+}
+
+div.services div.service-block article div.service-content{
+    display: none;
+    position: absolute;
+    text-align: center;
+    padding: 30px;
+    top: 0px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div.services div.service-block article div.service-content h4{
+    font-size: 18px;
+    font-weight: lighter;
+    border-bottom: 1px solid white;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+div.services div.service-block article div.service-content p{
+    font-size: 13px;
+    line-height: 20px;
+}
+div.services div.service-block article:nth-child(2){
+    background-color: #e67e22;
+    position: relative;
+}
+div.services div.service-block article:nth-child(3){
+    background-color: #3498db;
+    position: relative;
+}
+div.services div.service-block article:nth-child(4){
+    background-color: #2ecc71;
+    position: relative;
+}
+div.services div.service-block article:hover div.service-content{
+    display: block;
+    transition: all .5s;
+}
+div.services div.service-block article:hover i{
+    display: none;
+    transition: all .5s;
+}
+
+/* --------------- */
+div.portfolio{
+    padding: 50px 8vw;
+}
+div.portfolio div.portfolio-text{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 50px;
+}
+div.portfolio div.portfolio-text h3{
+    margin: auto;
+    width: fit-content;
+    font-size: 26px;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+}
+div.portfolio div.portfolio-block{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+div.portfolio div.portfolio-block article{
+    width: 25%;
+    height: 40vh;
+    flex-grow: 1;
+    flex-basis: 250px;
+    position: relative;
+}
+div.portfolio div.portfolio-block article img{
+    width: 100%;
+    height: 100%;
+}
+
+div.portfolio div.portfolio-block article div.portfolio-content{
+    display: none;
+    position: absolute;
+    text-align: center;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+    top: 0px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div.portfolio div.portfolio-block article div.portfolio-content h4{
+    font-size: 18px;
+    font-weight: lighter;
+    border-bottom: 1px solid white;
+    width: fit-content;
+    margin: auto;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+}
+div.portfolio div.portfolio-block article div.portfolio-content p{
+    font-size: 13px;
+    line-height: 20px;
+}
+div.porfolio div.portfolio-block article:hover div.portfolio-content{
+    display: block;
+    transition: all .5s;
+}
+div.portfolio div.portfolio-block article:hover div.portfolio-content{
+    display: block;
+    background-color: #e67e22;
+    transition: all .5s;
+}
+div.portfolio-content i{
+    background-color: white;
+    display: inline-block;
+    color: #e67e22;
+    padding: 10px;
+    border-radius: 50%;
+}
+div.portfolio-content i:hover{
+    color: black;
+}
+/* ---- */
+div.team{
+    padding: 50px 8vw;
+}
+div.team div.team-text{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 50px;
+    color: rgb(65, 64, 64);
+}
+div.team div.team-text h3{
+    margin: auto;
+    width: fit-content;
+    font-size: 26px;
+    border-bottom: 1px solid ;
+    margin-bottom: 10px;
+}
+div.team div.team-block{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+div.team div.team-block article{
+    width: 250px;
+    height: 250px;
+    background-image: url("https://play-lh.googleusercontent.com/C9CAt9tZr8SSi4zKCxhQc9v4I6AOTqRmnLchsu1wVDQL0gsQ3fmbCVgQmOVM1zPru8UH");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    display: flex;
+    overflow: hidden;
+}
+/* div.team div.team-block article:first-child{} */
+div.team div.team-block article main{
+    display: none;
+    background-color: #ec523f;
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.team div.team-block article:hover main{
+    display: flex;   
+}
+div.team div.team-block article main h5{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    border-bottom: 1px solid ;
+    padding-bottom: 15px;
+    margin-bottom: 15px;    
+}
+div.team div.team-block article main p{
+    padding-bottom: 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+}
+div.team div.team-block article main div{
+    display: flex;
+    gap: 10px;
+    
+}
+div.team div.team-block article main div a{
+    display: flex;
+    width: 30px;
+    height: 30px;  
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    text-decoration: none;
+    color: #ec523f;
+}
+div.team div.team-block article main a i{
+    background-color: white;
+    font-size: 12px;
+    padding: 12px;   
+}
+/* ----------------------------- */
+div.skills{
+    width: 80%;
+    margin: 50px auto;
+}
+div.skills section:first-child{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: gray;
+    margin-bottom: 50px;
+}
+div.skills section:first-child h5{
+    font-size: 20px;
+    font-weight: lighter;
+}
+div.skills section:first-child p{
+    font-size: 12px;
+}
+div.skills section:nth-child(2){
+    display: flex;
+}
+div.skills section:nth-child(2) aside:first-child{
+    width: 70%;
+    padding: 0px 40px 0px 0px;
+    text-align: justify;
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+}
+div.skills section:nth-child(2) aside:first-child p{
+    line-height: 25px;
+}
+div.skills section:nth-child(2) aside:first-child p:first-child{
+    margin-bottom: 20px;
+}
+div.skills section:nth-child(2) aside:first-child p a{
+    color: #e67e22;
+    text-decoration: none;
+}
+div.skills section:nth-child(2) aside:first-child p a:hover{
+    color: black;
+}
+div.skills section:nth-child(2) aside:last-child{
+    width: 30%;
+}
+div.skills section:nth-child(2) aside:last-child main{
+    background-color: rgb(238, 240, 240);
+    margin-bottom: 10px;
+}
+div.skills section:nth-child(2) aside:last-child main div{
+    color: white;
+    font-size: 13px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ec523f;
+    padding: 10px;  
+    box-sizing: border-box;
+}
+div.skills section:nth-child(2) aside:last-child main:first-child div{
+    width: 90%;
+}
+div.skills section:nth-child(2) aside:last-child main:nth-child(2) div{
+    width: 80%;
+}
+div.skills section:nth-child(2) aside:last-child main:nth-child(3) div{
+    width: 70%;
+}
+div.skills section:nth-child(2) aside:last-child main:last-child div{
+    width: 80%;
+}
+
+/* <aside>
+<main>
+    <div>PHOTOSHOP 90%</div>
+</main>
+<main>
+    <div>HTML CSS 80%</div>
+</main>
+
+<main>
+    <div>DEVELOPMENT 70%</div>
+</main>
+
+<main>
+    <div>MARKETING 80%</div>
+</main>
+</aside> */

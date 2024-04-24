@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            overflow: hidden;
+        }
+        main{
+            width: fit-content;
+            margin: 500px auto;
+        }
+        div{
+            width: 300px;
+            height: 300px;
+            background-color: rgb(37, 93, 116);
+            display: inline-block;
+            position: relative;
+            rotate: 45deg;
+        }
+        div:first-child{
+            left: 100px;
+        }
+        div:nth-child(2){
+            top: 50px;
+        }
+        div:last-child{
+            left: -100px;
+        }
+        section{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            background-color: orange;
+            border-radius: 50%;
+            animation-name: sun;
+            animation-duration: 5s;
+            left: 55%;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+            z-index: -1;
+        }
+        @keyframes sun {
+            from{
+                top: 110%;
+            }
+            to{
+                top: 0%;
+            }
+        }
+        img{
+            position: absolute;
+            width: 200px;
+            top: 50%;
+            animation-name: cloud;
+            animation-duration: 5s;
+            animation-direction: alternate;
+            animation-iteration-count: infinite;
+        }
+        @keyframes cloud {
+            from{
+                left: -20%;
+            }
+            to{
+                left: 120%;
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <img src="realistic-white-cloud-png.webp" alt="">
+    <section></section>
+    <main>
+        <div></div>
+        <div></div>
+        <div></div>
+    </main>
+</body>
+</html>

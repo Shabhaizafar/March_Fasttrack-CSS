@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Card Layout</title>
+<style>
+  .card-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+  }
+
+  .card {
+    width: 200px;
+    height: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-image: url('background-image.jpg');
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .card-content {
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<div class="card-container">
+  <div class="card">
+    <div class="card-content">
+      <h2>Title 1</h2>
+      <p>This is the content of card 1.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-content">
+      <h2>Title 2</h2>
+      <p>This is the content of card 2.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-content">
+      <h2>Title 3</h2>
+      <p>This is the content of card 3.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-content">
+      <h2>Title 4</h2>
+      <p>This is the content of card 4.</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-content">
+      <h2>Title 5</h2>
+      <p>This is the content of card 5.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

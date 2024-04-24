@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+main{
+    background-color: cadetblue;
+    height: 500px;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    width: 750px;
+    /* default */
+    /* justify-content: flex-start; */
+    /* justify-content: start; */
+    /* justify-content: left; */
+    /* justify-content: stretch; */
+
+    /* justify-content: right; */
+    /* justify-content: flex-end; */
+    /* justify-content: end; */
+
+    justify-content: center;
+    /* justify-content: space-between; */
+    /* justify-content: space-around; */
+    /* justify-content: space-evenly; */
+
+    /* default  */
+    /* flex-direction: row; */
+
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    /* flex-direction: column-reverse; */
+
+    /* default */
+    /* flex-wrap: nowrap; */
+    /* flex-wrap: wrap; */
+    /* flex-wrap: wrap-reverse; */
+
+    /* flex-flow: column; */
+    /* flex-flow: wrap; */
+    /* flex-flow: row-reverse wrap-reverse; */
+
+    /* align-items: stretch; */
+
+    /* align-items: flex-start; */
+    /* align-items: self-start; */
+    /* align-items: flex-end; */
+    /* align-items: self-end; */
+    /* align-items: center; */
+
+    /* align-items: baseline; */
+    /* align-items: first baseline; */
+    /* align-items: last baseline; */
+
+    /* row-gap: 20px; */
+    /* column-gap: 30px; */
+    /* row column */
+    /* gap: 20px 30px; */
+}
+div{
+    flex-grow: 1;
+    flex-basis: 100px;
+}
+div:nth-child(2n){
+    background-color: green;
+    /* flex-grow: 1; */
+    flex-shrink: 10;
+    /* order: 1; */
+}
+div:nth-child(2n+1){
+    background-color: red;
+    /* flex-grow: 2; */
+}
+h1{
+    background-color: red;
+    /* flex-grow: 1; */
+    /* align-self: stretch; */
+    /* align-self: center; */
+    /* align-self: self-end; */
+}
+/* 
+
+parent : 
+display:flex;
+justify-content: ;
+flex-direction: ;
+flex-wrap: ;
+flex-flow: ;
+align-items: ;
+gap: ;
+column-gap: ;
+row-gap: ;
+
+
+Child : 
+flex-grow: ;
+align-self: ;
+flex-basis: ;
+flex-shrink: ;
+order: ;
+*/

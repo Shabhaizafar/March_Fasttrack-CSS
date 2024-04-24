@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Property/Hover Effect</title>
+    <style>
+        div{
+            /* background-color: cornflowerblue;
+            font-size: 24px;
+            color: crimson;
+            display: block;
+            width: 50%;
+            height: 100px; */
+            /* margin: 10px; */
+            /* margin: auto; */
+            /* padding: 10px; */
+
+        }
+        /* 
+            - default width 100%
+            - default height content size
+            - width changable 
+            - height changable 
+            - margin workable all side
+            - margin auto workable
+            - padding workable
+            - text change position
+            - always start and with new line
+        */
+        span{
+            background-color: cornflowerblue;
+            font-size: 24px;
+            color: crimson;
+            display: inline;
+            width: 100px;
+            height: 100px;
+            /* margin: 100px; */
+            /* margin: auto; */
+            /* padding: 100px; */
+        }
+        /* 
+            - default width content size
+            - default height content size
+            - width not changable 
+            - height not changable 
+            - margin workable but ony left/right
+            - margin auto not workable
+            - padding workable
+            - text not  change position
+            - always start and with blank space
+        */
+        section{
+            background-color: cornflowerblue;
+            font-size: 24px;
+            color: crimson;
+            display: inline-block;
+            /* width: 300px; */
+            /* height: 200px; */
+            /* margin: 100px; */
+            /* margin: auto; */
+            /* padding: 100px; */
+        }
+        /* 
+            - default width content size
+            - default height content size
+            - width changable 
+            - height changable
+            - margin workable all side
+            - margin auto not workable 
+            - padding workable
+            - text change position
+            - always start and with blank space
+        */
+        main{
+            background-color: black;
+            color:antiquewhite;
+            font-family: cursive;
+            font-size: large;
+            text-align: center;
+        }
+        div{
+            background-color: darkblue;
+            display: inline-block;
+            /* margin: 10px ; */
+            padding: 10px;
+        }
+        div:hover{
+            /* background-color: red; */
+            color: cadetblue;
+            background-color: transparent;
+        }
+    </style> 
+</head>
+<body>
+    <!-- <div>Block</div>  -->
+    <!-- <span>Inline</span> -->
+    <!-- <br> 
+    <section>Inline-Block </section>
+    <section>Inline-Block </section> -->
+
+    <main>
+        <div>Link 1</div>
+        <div>Link 2</div>
+        <div>Link 3</div>
+        <div>Link 4</div>
+        <div>Link 5</div>
+        <div>Link 6</div>
+        <div>Link 7</div>
+        <div>Link 8</div>
+    </main>
+</body>
+</html>
+
+<!-- 
+
+    block
+    - always start with new line
+    - cover extra space top/bottom
+    inline
+    - always start with blank space 
+    - not cover any extra space
+ -->

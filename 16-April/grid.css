@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* parent Element */
+main{
+    background-color: skyblue;
+    height: 600px;
+    display: grid;
+    /* default Values */
+    /* grid-template-columns: 100%; */
+    /* grid-template-columns: auto; */
+    /* grid-template-columns: 1fr; */
+
+    /* grid-template-columns:500px 100px 1000px; */
+
+    /* grid-template-columns: 50% 50% 50%;  */
+
+    /* grid-template-columns: 1fr 1fr 3fr 4fr; */
+    /* 
+        100% = 1fr
+        100%/2 = 50% ==1fr
+
+        100%/5 = 20% ==1fr
+        100%/9 = 11...% ==1fr
+    */
+
+    /* 100% - 10% = 90% - 10% = 80% - 500px = ans - 100px = ans2 */
+    grid-template-columns: 1fr 2fr 3fr;
+
+    /* grid-template-rows: 1fr 1fr 1fr; */
+    /* grid-template-rows: auto auto auto; */
+    grid-template-rows: 100px 150px 200px 1fr;
+
+    /* row-gap: 20px;
+    column-gap: 20px; */
+
+    /* row/column */
+    /* gap: 30px; */
+        /* row   column */
+    gap: 30px 50px;
+
+}
+
+/* Child Element */
+
+.box1{
+    background-color: red;
+}
+.box2{
+    background-color: yellow;
+}
+.box3{
+    background-color: blue;
+}
+.box4{
+    background-color: pink;
+}
+.box5{
+    background-color: green;
+}
+.box6{
+    background-color: purple;
+}
+.box7{
+    background-color: goldenrod;
+}
+.box8{
+    background-color: lightgreen;
+}
+
+/* 
+Parent : 
+    grid-template-columns: ;
+    grid-template-rows: ;
+    grid-template-areas: ;
+    gap: ;
+    row-gap: ;
+    column-gap: ;
+    grid-auto-flow: ;
+    grid-auto-rows: ;
+    grid-auto-columns: ;
+    grid-template: ;
+
+
+Child : 
+    grid-area: ;
+    grid-column: ;
+    grid-row: ;
+    grid-column-start: ;
+    grid-column-end: ;
+    grid-row-start: ;
+    grid-row-end: ;
+    order: ;
+*/

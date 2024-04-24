@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bio Data</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f0f0;
+    }
+    
+    .bio {
+      width: 400px;
+      background-color: #fff;
+      padding: 20px;
+     
+    }
+    
+    .image {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto 20px;
+      background-image: url('data:image/jpeg;base64,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');
+      background-size: cover;
+     
+    }
+    
+    .name {
+      text-align: center;
+      color: #333;
+      margin-bottom: 10px;
+    }
+    
+    .info {
+      color: #666;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="bio">
+      <div class="image"></div>
+      <div class="name">John Doe</div>
+      <div class="info">
+        <p>Age: 30</p>
+        <p>Occupation: Developer</p>
+        <p>Location: New York</p>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

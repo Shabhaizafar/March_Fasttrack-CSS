@@ -1,0 +1,71 @@
+div{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+    padding: 20px;
+
+    /* border: ;
+    border-style: ;
+    border-width: ;
+    border-color: ; */
+    border: 40px solid black;
+
+    /* border-top: 10px dashed blue; */
+    /* border-top-style: solid;
+    border-top-width: 10px;
+    border-top-color: blue; */
+
+
+    /* border-left: 20px double green; */
+    /* border-left-style: solid;
+    border-left-width: 10px;
+    border-left-color: blue; */
+
+    /* border-right: 10px dotted gray; */
+    /* border-right-style: solid;
+    border-right-width: 10px;
+    border-right-color: blue; */
+
+    /* border-bottom: 10px solid red; */
+    /* border-bottom-style: solid;
+    border-bottom-width: 10px;
+    border-bottom-color: blue; */
+
+
+    /* border-radius: 0px; */
+    /* all corner */
+    /* border-radius: 50px; */
+    /* 1) top-left corner /bottom-right corner */
+    /* 2) bottom-left corner /top-right corner */
+    /* border-radius: 50px 100px; */
+    /* top-left corner, top-right corner, bottom-right corner,bottom-left corner*/
+    /* border-radius: 10px 30px 60px 100px; */
+
+    /* border-top-left-radius: 30px; */
+    /* border-top-right-radius: 50px; */
+    /* border-bottom-left-radius: 60px; */
+    /* border-bottom-right-radius: 70px; */
+
+            /*1 left/right  2 top/bottom  */
+    /* border-start-start-radius: 40px;
+    border-start-end-radius: 50px;
+    border-end-end-radius: 100px;
+    border-end-start-radius: 150px; */
+    /* border-radius: 50%; */
+
+
+    /* border-image-source: url("https://mdn.github.io/css-examples/tools/border-image-generator/border-image-1.png"); */
+                    /*top right bottom left  */
+    /* border-image-slice: 13 13 13 13; */
+    /* border-image-slice: 27; */
+    /* border-image-repeat: stretch; */
+    /* border-image-repeat: repeat; */
+    /* border-image-repeat: space; */
+    /* border-image-repeat: round;
+    border-image-width: 40px;
+    border-image-outset: 10px; */
+
+        /*h-offset v-offset blur width color */
+    /* box-shadow: 5px 5px 10px 0px blue, 15px 15px 10px 0px red; */
+}

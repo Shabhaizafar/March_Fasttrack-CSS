@@ -1,0 +1,35 @@
+div{
+    background-color: aqua;
+    width: 300px;
+    height: 300px;
+    margin: 50px auto;
+
+    /* border-width  border-style  border-color */
+    /* border: 1px solid black; */
+
+    /* border-style: solid; */
+    /* border-style: dashed; */
+    /* border-style: double; */
+    /* border-style: dotted; */
+    /* border-style: inset; */
+    /* border-style: outset; */
+    /* border-style: ridge; */
+    /* border-style: groove; */
+
+    /* border-style: none; */
+    /* border-style: solid dashed; */
+    /* border-style: solid dashed double none; */
+
+
+
+
+
+    /* border-width: 10px; */
+    /* border-width: 10px 20px; */
+    /* border-width: 10px 20px 30px 50px; */
+
+    /* border-color: red; */
+    /* border-color: red blue; */
+    /* border-color: red blue green yellow; */
+
+}

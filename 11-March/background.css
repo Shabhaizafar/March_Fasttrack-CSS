@@ -1,0 +1,92 @@
+/* div{ */
+    /* width: 100%;
+    height: 600px;
+    border: 1px solid black; */
+
+    /* value : color name,hexa ,rgb,rgba,hsl,hsla */
+    /* background-color: red; */
+    /* background-color: #ff0000; */
+
+    /* background-image: url("https://media.istockphoto.com/id/1294262102/photo/summer-meadow.webp?b=1&s=170667a&w=0&k=20&c=t8qNj3EOL_qYg3YtAgMiC_DLSpKEvUltUijYScJ0xWQ="); */
+
+    /* background-size: auto; */
+    /*parent width */
+    /* background-size: cover; */
+    /* parent Height */
+    /* background-size: contain; */
+                    /*width  height  */
+    /* background-size: 300px 250px; */
+    /* background-size: 100% 50%; */
+
+    /* background-repeat: repeat; */
+    /* background-repeat: no-repeat; */
+    /* background-repeat: repeat-x; */
+    /* background-repeat: repeat-y; */
+
+    /* CUT THATA IMAGE NE REMOVE KARVA */
+    /* background-repeat: space; */
+    /* CHECK IMAGE 50% INNER CHE K NY ? TRUE : IMAGE INNER  FALSE : IMAGE REMOVE */
+    /* background-repeat: round; */
+
+    /* background-position: 0px 0px; */
+    /* background-position: 0% 0%; */
+    /* background-position: left top; */
+    /* background-position: 0% top; */
+    /* background-position: left 0%; */
+
+    /* background-position: left; */
+    /* background-position: right; */
+    /* background-position: top; */
+    /* background-position: bottom; */
+    /* background-position: center; */
+
+    /* background-position: left bottom; */
+    /* background-position: right top; */
+                        /*X     Y*/
+    /* background-position: 100px 500px; */
+    /* background-position: 30% 90%; */
+
+/* } */
+
+/* div{
+    width: 300px;
+    height: 250px;
+    padding: 30px;
+    border: 10px dashed black;
+    margin: 100px auto;
+     */
+    /* background-image: url("https://media.istockphoto.com/id/1294262102/photo/summer-meadow.webp?b=1&s=170667a&w=0&k=20&c=t8qNj3EOL_qYg3YtAgMiC_DLSpKEvUltUijYScJ0xWQ=");
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+    /* background-color: aqua; */
+    /* background-origin: padding-box; */
+    /* background-origin: content-box; */
+    /* background-origin: border-box; */
+
+
+    /* background-clip: border-box; */
+    /* background-clip: padding-box; */
+    /* background-clip: content-box; */
+
+    /* overflow:auto;  */
+
+    /* background-attachment: fixed; */
+    /* background-attachment: local; */
+/* } */
+body{
+    background-image: url("https://media.istockphoto.com/id/1294262102/photo/summer-meadow.webp?b=1&s=170667a&w=0&k=20&c=t8qNj3EOL_qYg3YtAgMiC_DLSpKEvUltUijYScJ0xWQ=");
+    background-color: blueviolet;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-attachment: scroll; */
+    background-attachment: fixed;
+
+    /* background-blend-mode: multiply; */
+    /* background-blend-mode: color-burn; */
+    /* background-blend-mode: luminosity; */
+    /* background-blend-mode: difference; */
+    
+
+
+
+}

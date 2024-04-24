@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float and Clear Practice</title>
+    <style>
+        /* Apply float property directly to div elements */
+        div {
+            width: 50%; /* Adjust as needed */
+            padding: 20px;
+            box-sizing: border-box;
+            color: white; /* Text color */
+        }
+
+        div.float-left {
+            float: left;
+            background-color: #3498db; /* Blue */
+        }
+
+        div.float-right {
+            float: right;
+            background-color: #e74c3c; /* Red */
+        }
+
+        /* Apply clearfix to paragraph directly */
+        p.clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+
+<div class="float-left">
+    <h2>Float Left</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonummy tincidunt ut lacreet dolore magna aliguam erat volutpat.</p>
+</div>
+
+<div class="float-right">
+    <h2>Float Right</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed nonummy tincidunt ut lacreet dolore magna aliguam erat volutpat.</p>
+</div>
+
+<!-- Apply clearfix to paragraph directly -->
+<p class="clearfix">This paragraph should appear below both floated divs due to the clear fix.</p>
+
+</body>
+</html>
