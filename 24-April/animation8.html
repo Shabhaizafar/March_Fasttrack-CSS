@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        main{
+            width: 300px;
+            height: 400px;
+            background-color: lightcoral;
+            position: relative;
+            border-radius: 20px;
+            margin: 100px auto;
+        }
+        div{   
+            position: absolute;
+            animation-name: box;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+            animation-timing-function: linear;
+        }
+        @keyframes box {
+            from{
+                width: 100px;
+                height: 100px;
+                top: 150px;
+                left: 100px;
+                background-color: blue;
+            }
+            to{
+                width: 300px;
+                height: 300px;
+                top: 50px;
+                left: 0px;
+                background-color: rgba(0, 0, 255, 0.295);
+            }
+        }
+        div:first-child{
+            animation-delay: 500ms;
+        }
+        div:nth-child(2)
+        {
+            animation-delay: 1000ms;
+        }
+        div:nth-child(3)
+        {
+            animation-delay: 1500ms;
+        }
+        div:nth-child(4)
+        {
+            animation-delay: 2000ms;
+        }
+        div:nth-child(5)
+        {
+            animation-delay: 2500ms;
+        }
+        div:nth-child(6)
+        {
+            animation-delay: 3000ms;
+        }
+        div:nth-child(7)
+        {
+            animation-delay: 3500ms;
+        }
+        div:last-child{
+            animation-delay: 4000ms;
+        }
+    </style>
+</head>
+<body>
+     
+     <main>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+     </main>
+</body>
+</html>
