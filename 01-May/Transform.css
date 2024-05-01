@@ -1,0 +1,48 @@
+div{
+    width: 100px;
+    height: 100px;
+    /* background-color: skyblue; */
+    background-image: url("https://images3.alphacoders.com/133/1332803.png");
+    background-size: 100% 100%;
+    margin:200px auto;
+    /* transform: scaleX(-1); */
+}
+div:hover{
+    transition: all 2s;
+    /* background-color: brown; */
+/* --------------------------------------------- */
+    
+    /* scale(numeric value),scaleX,scaleY  */
+                    /* X/Y */
+    /* transform: scale(2,1.4); */
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+
+/* --------------------------------------------- */
+
+    /* translate(),translateX(pixel),translateY */
+    /* transform: translateX(-50px); */
+    /* transform: translateY(50px); */
+                        /* X */
+    /* transform: translate(50px); */
+                        /* X    Y */
+    /* transform: translate(50px,100px); */
+/* --------------------------------------------- */
+
+    /* rotate ,rotateX(deg),rotateY */
+                    /* Z */
+    /* transform: rotate(30deg); */
+    /* transform: rotateX(180deg); */
+    /* transform: rotateY(-180deg); */
+
+/* --------------------------------------------- */
+
+    /* skew,skewX(deg),skewY */
+                /* X */
+    /* transform: skew(30deg); */
+                /* X,Y  = Z */
+    /* transform: skew(90deg,90deg); */
+    
+    /* transform: skewX(90deg); */
+    /* transform: skewY(90deg); */
+}
