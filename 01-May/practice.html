@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CSS Transform Hover Effect</title>
+<style>
+    .container {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 50px;
+    }
+
+    .box {
+        width: 150px;
+        height: 150px;
+        background-color: #3498db;
+        color: white;
+        text-align: center;
+        line-height: 150px;
+        transition: transform 0.3s ease;
+        cursor: pointer;
+    }
+
+    .box:hover {
+        transform: scale(1.2);
+    }
+
+    .translate:hover {
+        transform: translate(20px, 20px);
+    }
+
+    .skew:hover {
+        transform: skew(20deg, 10deg);
+    }
+
+    .rotate:hover {
+        transform: rotate(20deg);
+    }
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="box">Scale</div>
+    <div class="box translate">Translate</div>
+    <div class="box skew">Skew</div>
+    <div class="box rotate">Rotate</div>
+</div>
+
+</body>
+</html>
