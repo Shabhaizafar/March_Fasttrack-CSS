@@ -1,0 +1,67 @@
+:root{
+    --color_1 : lime;
+    --color_2 : blue;
+    --color_3 : blueviolet;
+    --bgbody : red;
+    --bgcolor_2 : black;
+    --bgcolor_3 : lightcyan;
+    --bgcolor_4 : lightcoral;
+    --bgcolor_5 : darkred;
+    --fontsize1 : 10px;
+}
+div{
+    background-color: var(--bgbody);
+}
+h1{
+    color: var(--color_1);
+    background-color: var(--bgcolor_2);
+}
+p{
+    color: var(--color_2);
+    background-color: var(--bgcolor_3);
+    font-size: var(--fontsize1);
+}
+pre{
+    color: var(--color_3);
+    background-color: var(--bgcolor_4);
+}
+table{
+    background-color: var(--bgcolor_5);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
