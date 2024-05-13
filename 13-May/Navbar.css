@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    background-color: darkblue;
+    display: flex;
+    align-items: center;
+}
+/* ------- */
+.logo{
+    width: 35px;
+    padding: 5px 15px;
+}
+.logo img{
+    width: 100%;
+}
+/* ------- */
+.menu{
+}
+ul{
+    list-style-type: none;
+    display: flex;
+}
+ul li{
+    padding: 14.975px 15px;
+}
+ul li:hover{
+    background-color: #04AA6D;
+}
+.search{
+    background-color: green;
+}
+.darkmode{
+    background-color: yellow;
+}
+.effect{
+    background-color: purple;
+}
+.btn{
+    background-color: cadetblue;
+}
+
+/* 47.05 - 18 = 29.95 = 14 */
