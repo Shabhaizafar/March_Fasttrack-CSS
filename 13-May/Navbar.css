@@ -2,43 +2,111 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    
+    background-color: darkgray;
+}
 nav{
-    background-color: darkblue;
+    background-color: white;
     display: flex;
     align-items: center;
+    height: 60px;
+    gap: 8px;
 }
 /* ------- */
 .logo{
-    width: 35px;
-    padding: 5px 15px;
+    width: 60px;
+    text-align: center;
+    margin-left: 5px;
 }
 .logo img{
-    width: 100%;
+    width: 65%;
 }
 /* ------- */
 .menu{
+    height: 100%;
 }
 ul{
     list-style-type: none;
     display: flex;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    height: 100%;
 }
 ul li{
-    padding: 14.975px 15px;
+    padding: 18px 5px 18px 14px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
 }
 ul li:hover{
     background-color: #04AA6D;
 }
+/* ------------------------------- */
 .search{
-    background-color: green;
+    width: 18%;
 }
-.darkmode{
-    background-color: yellow;
+.search input{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(204, 202, 202);
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+::placeholder{
+    color: rgb(100, 95, 95);
+    font-style: italic;
+}
+.search input:focus{
+    outline: 3px solid #04AA6D;
+}
+/* ------------------------------- */
+
+.dark-mode{
+    margin-left: 8px;
+}
+.dark-mode span{
+    transform: rotate(180deg);
+    font-size: 18px;
+    border-radius: 50%;
+    padding: 5px;
+}
+.dark-mode span:hover{
+    background-color: rgb(218, 215, 215);
+}
+
+
+/* ---------------------------- */
 .effect{
-    background-color: purple;
+    background-color: ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.effect span{
+    font-size: 16px;
+}
+.effect b{
+    display: inline-block;
+    font-weight: 100;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color: black;
+    padding: 8px 12px;
+    border-radius: 20px;
+}
+b main{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.effect b:hover{
+    background-color: rgb(206, 201, 201);
+}
+
+/* ---------------------------- */
 .btn{
     background-color: cadetblue;
 }
 
-/* 47.05 - 18 = 29.95 = 14 */
+/* 48-14 = 34 */
