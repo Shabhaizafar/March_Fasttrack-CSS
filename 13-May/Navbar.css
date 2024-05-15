@@ -11,7 +11,7 @@ nav{
     display: flex;
     align-items: center;
     height: 60px;
-    gap: 8px;
+    gap: 10px;
 }
 /* ------- */
 .logo{
@@ -46,6 +46,7 @@ ul li:hover{
 /* ------------------------------- */
 .search{
     width: 18%;
+    position: relative;
 }
 .search input{
     padding: 10px 20px;
@@ -60,6 +61,17 @@ ul li:hover{
 }
 .search input:focus{
     outline: 3px solid #04AA6D;
+}
+.search span{
+    position: absolute;
+    right: -7px;
+    top: calc(50% - 17px);
+    border-radius: 50%;
+    padding: 6px;
+}
+.search span:hover{
+    background-color: rgb(216, 215, 215);
+    cursor: pointer;
 }
 /* ------------------------------- */
 
@@ -79,7 +91,6 @@ ul li:hover{
 
 /* ---------------------------- */
 .effect{
-    background-color: ;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .effect span{
@@ -101,12 +112,37 @@ b main{
 }
 
 .effect b:hover{
-    background-color: rgb(206, 201, 201);
+    background-color:#d7e2de;
 }
 
 /* ---------------------------- */
 .btn{
-    background-color: cadetblue;
+    background-color: #bdddd1;
+    border-radius: 20px;
+}
+.btn button{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 10px 20px;
+}
+.btn button:first-child{
+    color: white;
+    background-color: #04AA6D;
+    border-radius: 20px;
+    position: relative;
+}
+.btn button:last-child{
+    margin-left: -20px;
+    border-radius: 0px 20px 20px 0px;
+}
+.btn button:hover{
+    background-color: #059b64;
+    color: white;
 }
 
-/* 48-14 = 34 */
+/* <div class="btn">
+            <button>Sign up</button>
+            <button>Log in</button>
+        </div> */
