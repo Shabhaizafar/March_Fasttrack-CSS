@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: gainsboro;
+}
+header{
+    background-color: black;
+    display: flex;
+    padding: 17px 44px;
+    gap: 30px;
+    align-items: center;
+}
+div.logo{
+    flex-grow: 1;
+}
+div.menu ul{
+    list-style-type: none;
+    display: flex;
+    gap: 35px;
+}
+div a{
+    text-decoration: none;
+    color: white;
+    font-family:'Georama';
+    font-size: 14px;
+    display: flex;
+    position: relative;
+}
+a span{
+    font-size: 18px !important;
+}
+a:hover{
+    color: #dd052b;
+    transition: all .3s;
+}
+li a:hover span{
+    transition: all .3s;
+    transform: rotateX(180deg);
+}
+div.email span{
+    font-size: 32px !important;
+}
+div.search span{
+    font-size: 32px !important;
+}
+a:hover section.rise-sub{
+    visibility: visible;
+    background-color: red;
+}
+section.rise-sub{
+    position: absolute;
+    top: 66px;
+    background-color: black;
+    width: 100vw;
+    left: 0px;
+    display: flex;
+    padding: 30px 30px 70px;
+    box-sizing: border-box;
+    /* visibility: hidden; */
+}
+section.rise-sub ul{
+    display: block;
+}
+section.rise-sub ul li{
+    padding: 10px;
+}
+section.rise-sub ul li a{
+    color: rgb(219, 218, 218);
+}
+section.rise-sub ul li:hover a{
+    color: white;
+}
+section.rise-sub img{
+    width: 300px;
+}
+section.rise-sub aside{
+    flex-grow: 1;
+}
+section.rise-sub aside:nth-child(2){
+    display: flex;
+    justify-content: right;
+}
+section.rise-sub aside:last-child{
+    text-align: right;
+}

@@ -1,0 +1,43 @@
+img{
+    width: 300px;
+           /* value : px   default value : 0px */
+    /* filter: blur(0px); */
+
+        /* value : %   default value : 100% */
+    /* filter: brightness(300%); */
+    
+        /* value : %   default value : 100% */
+    /* filter: contrast(300%); */
+
+        /* value : %   default value : 100% */
+    /* filter: saturate(300%); */
+
+        /* value : 0-1   default value : 1 */
+    /* filter: grayscale(0); */
+
+        /* value : 0-1   default value : 1 */
+    /* filter: sepia(0); */
+
+        /* value : 0-1   default value : 1 */
+    /* filter: opacity(0); */
+
+    filter: drop-shadow(-15px -15px 5px red);
+    /* box-shadow: 5px 5px 5px gray; */
+
+        /* value : 0-1   default value : 1 */
+    /* filter: invert(1); */
+
+}
+img:hover{
+    /* filter: blur(10px); */
+}
+
+#img1{
+    /* filter: brightness(300%); */
+}
+#img2{
+    /* filter: contrast(300%); */
+}
+#img3{
+    /* filter: saturate(300%); */
+}
