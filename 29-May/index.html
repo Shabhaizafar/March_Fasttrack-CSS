@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* a{
+            color: red;
+        } */
+        /* Psuedo Class Selector */
+        a:visited{
+            color: green;
+        }
+        a:link{
+            color: yellow;
+        }
+        a:active{
+            color: red;
+        }
+        a:hover{
+
+        }
+        li:first-child{
+
+        }
+        li:last-child{
+
+        }
+        li:nth-child(){
+
+        }
+        p{
+            color: red;
+        }
+        /* Psuedo Element Selector */
+        p::first-line{
+            color: blue;
+        }
+        p::first-letter{
+            font-size: 100px;
+        }
+        p::after{
+            content: attr(text-data);
+        }
+        p::before{
+            content: attr(text-data2);
+        }
+        /* Combinator Selector */
+        div section p{
+
+        }
+        ul{
+            margin-left: 100px;
+        }
+        li::marker{
+            position: absolute;
+            content: url('https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/WhatsApp_icon.png/479px-WhatsApp_icon.png');
+            background-color: gray;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://www.google.com">Google</a>
+    <a href="https://www.facebook.com">facebook</a>
+    <a href="https://www.pinterest.com">pinterest</a>
+
+    <div>
+        <section>
+            <p text-data="ZAFAR" text-data2="AZ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse asperiores inventore ipsa quibusdam explicabo obcaecati consequuntur non, tempore dignissimos tenetur consectetur porro nam quaerat praesentium fuga enim voluptatum nostrum hic.</p>
+        </section>
+    </div>
+    <ul>
+        <li>HTML</li>
+    </ul>
+</body>
+</html>
