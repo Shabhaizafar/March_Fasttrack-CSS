@@ -1,0 +1,65 @@
+/* Basic reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling the navbar */
+.navbar {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul li {
+    position: relative;
+}
+
+.navbar ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+/* Hover effect for the links */
+.navbar ul li a:hover {
+    color: #ff6347; /* Tomato color */
+}
+
+/* Adding before and after pseudo-elements for hover effect */
+.navbar ul li a::before,
+.navbar ul li a::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: -50%;
+    background-color: #ff6347; /* Tomato color */
+    transition: all 0.3s;
+}
+
+.navbar ul li a::before {
+    transform: translateX(-50%);
+}
+
+.navbar ul li a::after {
+    transform: translateX(50%);
+}
+
+/* Expanding the lines on hover */
+.navbar ul li a:hover::before,
+.navbar ul li a:hover::after {
+    width: 100%;
+    left: 0%;
+    transform: translateX(0);
+}
