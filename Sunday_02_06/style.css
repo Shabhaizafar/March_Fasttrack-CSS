@@ -1,0 +1,69 @@
+:root{
+    /* font-size: 20px; */
+    /* font-size: 16px; */
+}
+
+div{
+    background-color: black;
+    padding: 10px;
+    color: whitesmoke;
+    width: 100%;
+    height: 200px;
+    min-width: 500px;
+    font-size: 40px;
+    /* max-width: 1000px; */
+    /* min-height: ;
+    max-height: ; */
+
+    /* overflow: auto; */
+    /* overflow-x: auto; */
+    /* overflow-x: hidden; */
+    /* overflow-y: visible; */
+
+
+    /* Absolute Units : 
+    cm	centimeters
+    mm	millimeters
+    in	inches (1in = 96px = 2.54cm)
+    px *	pixels (1px = 1/96th of 1in)
+    pt	points (1pt = 1/72 of 1in)
+    pc	picas (1pc = 12 pt)
+    */
+    /* font-size: 32px; */
+    /* font-size: 1cm; */
+    /* font-size: 1mm; */
+    /* font-size: 1in; */
+    /* font-size: 1pt; */
+    /* font-size: 2pc; */
+
+/*
+    em	Relative to the font-size of the element (2em means 2 times the size of the current font)	
+    rem	Relative to font-size of the root element	
+    vw	Relative to 1% of the width of the viewport*	
+    vh	Relative to 1% of the height of the viewport*	
+    %	Relative to the parent element
+    */
+    /* width: 100%; */
+    box-sizing: border-box;
+}
+p{
+    /* width: max-content; */
+    /* font-size: 16px; */
+    /* font-size: 2em; */
+    /* font-size: 2rem; */
+    /* background-color: red; */
+    /* width: 50%; */
+    /* width: 30vw;
+    height: 50vh;
+    overflow: auto; */
+    /* width: max(50%,100px); */
+    /* width: min(50%,500px); */
+}
+img{
+    /* -webkit-box-reflect: left; */
+    /* border: 4px solid black;
+    width: 300px;
+    object-fit: ;
+    /* object-position: 100px 100px; */
+    /* object-position: bottom; */
+}

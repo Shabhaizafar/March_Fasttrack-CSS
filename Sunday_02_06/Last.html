@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- <style>
+        .mask1{
+            mask-image: url(w3logo.png);
+            mask-repeat: no-repeat;
+        }
+    </style> -->
+
+    <!-- <style>
+        :root{
+            /* variables  */
+            --clr1 : red;
+            --clr2 : coral;
+            --clr3 : rgb(184, 11, 147);
+            --font_size1: 30px;
+        }
+        div{
+            background-color: aqua;
+        }
+        h1{
+            color: var(--clr1);
+            font-size: 30px;
+        }
+        h2{
+            color: var(--clr2);
+            font-size: large;
+        }
+        p{
+            color: var(--clr3);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        pre{
+            color: darkred;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+    </style>
+    <link rel="stylesheet" href="Variables.css"> -->
+
+    <style>
+        body{
+            counter-reset: section;
+        }
+        h2::before{
+            content:  counter(section) ":" ;
+            counter-increment: section;  
+            
+        }
+    </style>
+</head>
+<body>
+    <!-- <h3>An image with a mask layer image:</h3>
+    <div class="mask1">
+    <img src="img_5terre.jpg" alt="Cinque Terre" width="600" height="400">
+    </div> -->
+    <!-- <div>
+        <h1>Variables</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo nihil, similique non corporis natus cupiditate provident ducimus fugiat voluptatem velit sapiente exercitationem recusandae asperiores dignissimos quasi rerum vel blanditiis iste!</p>
+        <h2>Variables2</h2>
+        <pre>Lorem, ipsum dolor sit amet consectetur adipisicing 
+            elit. Nihil modi deserunt sed odit saepe eveniet 
+            reiciendis aperiam laborum culpa architecto ipsum, 
+            dicta dolor animi, dolores voluptatibus obcaecati 
+            enim praesentium repellat?
+        </pre>
+        <h3>ASDFGH</h3>
+    </div> -->
+    
+<h1>Using CSS Counters</h1>
+
+<section>
+    <h2>HTML Tutorial</h2>
+<h2>CSS Tutorial</h2>
+<h2>JavaScript Tutorial</h2>
+<h2>Python Tutorial</h2>
+<h2>SQL Tutorial</h2>
+<h2>SQL Tutorial</h2>
+
+<h2>SQL Tutorial</h2>
+
+<h2>SQL Tutorial</h2>
+
+</section>
+</body>
+</html>
