@@ -1,0 +1,48 @@
+@media screen and (min-width:1000px) {
+    div{
+        background-color: gainsboro;
+    }
+    h1{
+        color: blue;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    p{
+        font-family: monospace;
+        font-size: smaller;
+    }
+    img{
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+    table{
+        background-color: lightcoral;
+        margin: auto;
+        width: 60%;
+    }
+}
+@media screen and (max-width:1000px) and (min-width:500px) {
+    div{
+        background-color: black;
+    }
+    h1{
+        color: lightcyan;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    p{
+        font-family: monospace;
+        font-size: smaller;
+        color: lightgreen;
+    }
+    img{
+        width: 50%;
+        display: block;
+        margin: auto;
+    }
+    table{
+        background-color: limegreen;
+        margin: auto;
+        color: darkgoldenrod;
+        width: 60%;
+    }
+}
